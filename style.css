@@ -87,10 +87,15 @@ a:hover, a:active, a:focus {
 .project img{
 	margin: 10px;
 	display:block;
-	width: 50%;
-	float: right;
+	width: 95%;
+	float: center;
 }
 
 #propic {
-	-moz-transform: rotate(90deg);
+	/*-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);*/
 }
