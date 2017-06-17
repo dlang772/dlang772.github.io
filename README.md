@@ -6,3 +6,5 @@ I discussed the assignment with Amoses Holton and he advised me on how to struct
 of my html code. He also tested the website to look for errors.
 
 [updated] I spent approxiamately 5 hours on creating the first version of the webpage. I spent an additional 2 hours to debug and fix errors.
+
+[update 06/17/17] Added .git_ignore file
