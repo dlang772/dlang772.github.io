@@ -45,10 +45,10 @@ a:link {
 	text-decoration: none; 
 }
 
-a:visited {
+/*a:visited {
 	color:#CEE5F1;	
 	text-decoration: none;
-}
+}*/
 
 a:hover, a:active, a:focus { 
 	text-decoration: none;
