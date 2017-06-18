@@ -231,7 +231,7 @@ section::after {
 }
 #thanks p {
 	color: #fff;
-	font : normal 400 20px/1 'Josefin Sans', sans-serif;
+	font : normal 400 20px/1 'Overlock', sans-serif;
 }
 #thanks p a {
 	color: #fff;
@@ -251,7 +251,7 @@ section::after {
 	-webkit-transform: translate(0, -50%);
 	transform: translate(0, -50%);
 	color: #fff;
-	font : normal 400 20px/1 'Josefin Sans', sans-serif;
+	font : normal 400 20px/1 'Overlock', sans-serif;
 	letter-spacing: .1em;
 	text-decoration: none;
 	transition: opacity .3s;
