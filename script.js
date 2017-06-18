@@ -1,12 +1,13 @@
-$(function() {
-	$('a[href*=#]').on('click', function(e) {
-		e.preventDefault();
-		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top - 50}, 500, 'linear');
-	});
-});
-
-    $("#navbar-about").click(function() {
-        $('html, body').animate({
-            scrollTop: ($("#about-section").offset().top - 50)
-        }, 500);
+$(function() {    
+    $("#section10").click(function() {
+        $('html, body').animate({ 
+        	scrollTop: ($("#thank-you").offset().top - 50)}, 500);
+        return false;
     });
+     $("#thank-you").click(function() {
+        $('html, body').animate({ 
+        	scrollTop: ($("#section10").offset().top - 50)}, 500);
+        return false;
+    });
+
+});
