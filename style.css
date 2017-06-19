@@ -67,6 +67,10 @@ a:hover, a:active, a:focus {
 	text-align: center;
 }
 
+.content p {
+	color: #000000;
+}
+
 .header {
 	display: inline;
 	margin-left: 2%;
@@ -98,21 +102,43 @@ a:hover, a:active, a:focus {
 
 .project img{
 	margin: 10px;
-	display:block;
+	display: block;
 	width: 95%;
 	float: right;
 }
 
 .name img {
-	width:75%;
+	width: 75%;
+	height: auto;
+}
+
+.socialmedia img {
+	width: 30px;
+	height: auto;
+	border: 0;
+	transition: opacity .3s;
+	margin: 10px;
+}
+
+.socialmedia img:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=100);
+}
+
+.copyright p {
+	margin-bottom: 0;
+}
+
+.copyright img {
+	/*display: inline;*/
+	width: 4.5%;
 	height: auto;
 }
 
 
 
-
 /*##########################################################*/
-/*Section for background and navigation bar*/
+/*Section for background and navigation bar on home page*/
 
 .background {
 	background: url("background6.jpg") no-repeat center center fixed; 
@@ -150,7 +176,8 @@ a:hover, a:active, a:focus {
 	padding: 0px 12px 0px;
 	/*color: var(--text-color);*/
 	color: #FFFFFF;
-	font: 14px var(--font);
+	/*font: 14px var(--font);*/
+	font-size: 20px;
 	text-transform: uppercase;
 	letter-spacing: 3.5px;
 	text-decoration: none;
@@ -173,6 +200,23 @@ a:hover, a:active, a:focus {
 }
 
 
+/*Backgound for bio page*/
+.background-bio {
+	background: url("background7.jpg") no-repeat center center fixed; 
+	position: fixed;
+  	height: 100%;
+  	width: 100%;
+	left: 0;
+  	right: 0;
+  	z-index: -5;
+	/*filter: blur(2px);*/
+ 	/*-webkit-filter: blur(1px);*/
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+}
+
 
 
 
@@ -194,8 +238,9 @@ section::after {
 	content: '';
 	width: 100%;
 	height: 80%;
-	/*background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);*/
-	/*background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);*/
+	height: 100%;
+	/*background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.4) 80%,rgba(0,0,0,.4) 100%);*/
+	/*background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.4) 80%,rgba(0,0,0,.4) 100%);*/
 }
 
 /*.self img {
@@ -215,38 +260,45 @@ section::after {
 	content: none;
 }
 #thanks div {
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left: 50%;
+	right: 50%;
 	z-index: 2;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
 #thanks h1 {
-	position: static;
+	position: relative;
 	-webkit-transform: translate(0, 0);
 	transform: translate(0, 0);
 	margin-bottom: 60px;
-	color: #fff;
+	/*color: #fff;*/
+	color: #000000;
 }
 #thanks p {
-	color: #fff;
+	/*color: #fff;*/
+	color: #000000;
 	font : normal 400 20px/1 'Overlock', sans-serif;
+	text-align: center;
 }
 #thanks p a {
 	color: #fff;
+	/*color: #000000;*/
 	text-decoration: none;
 	transition: color .3s;
 }
 #thanks p a:hover {
 	color: #888;
+	/*color: #fff;*/
 }
 
 .demo a {
 	position: absolute;
 	bottom: 20px;
 	left: 50%;
+	right: 50%;
 	z-index: 2;
 	display: inline-block;
 	-webkit-transform: translate(0, -50%);
@@ -262,6 +314,13 @@ section::after {
 }
 
 
+
+
+
+
+
+
+/*This has to do with the animated button*/
 #section10 a {
 	padding-top: 60px;
 }
@@ -269,6 +328,7 @@ section::after {
 	position: absolute;
 	top: 0;
 	left: 50%;
+	right: 50%;
 	width: 30px;
 	height: 50px;
 	margin-left: -15px;
@@ -280,6 +340,7 @@ section::after {
 	position: absolute;
 	top: 10px;
 	left: 50%;
+	right: 50%;
 	content: '';
 	width: 6px;
 	height: 6px;

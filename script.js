@@ -1,10 +1,10 @@
 $(function() {    
-    $("#section10").click(function() {
+    $("#more-button").click(function() {
         $('html, body').animate({ 
-        	scrollTop: ($("#thanks").offset().top - 50)}, 500);
+        	scrollTop: ($("#thank-you").offset().top - 50)}, 500);
         return false;
     });
-    $("#thanks").click(function() {
+    $("#thank-you-button").click(function() {
         $('html, body').animate({ 
         	scrollTop: ($("#section10").offset().top - 50)}, 500);
         return false;
