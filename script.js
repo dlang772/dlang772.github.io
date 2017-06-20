@@ -1,7 +1,7 @@
 $(function() {    
     $("#more-button").click(function() {
         $('html, body').animate({ 
-        	scrollTop: ($("#thank-you").offset().top - 50)}, 500);
+        	scrollTop: ($("#thank-you-button").offset().top - 50)}, 500);
         return false;
     });
     $("#thank-you-button").click(function() {
@@ -18,3 +18,9 @@ $(function() {
     //     return false;
     // });
 });
+
+
+
+
+
+

@@ -383,3 +383,29 @@ section id = "section10" class="demo">
 		opacity: 0;
 	}
 }
+
+
+
+
+
+/*For the pdf resume viewer*/
+#pdf {
+	width: 80%;
+	height: 99%;
+	padding-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pdf p {
+   padding: 1em;
+}
+
+#pdf object {
+   display: inline-block;
+   border: 0;
+}
+
+
+
+
