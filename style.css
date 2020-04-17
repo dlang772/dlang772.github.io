@@ -273,10 +273,10 @@ section::after {
 	-webkit-transform: translate(0, 0);
 	transform: translate(0, 0);
 	margin-bottom: 60px;
-	color: #000000;
+	color: #FFFFFF;
 }
 #thanks p {
-	color: #000000;
+	color: #FFFFFF;
 	font : normal 400 20px/1 'Overlock', sans-serif;
 	text-align: center;
 }
