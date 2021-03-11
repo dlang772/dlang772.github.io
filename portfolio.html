@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
 	
-
+<!-- Nav Bar -->
 		<div class='background'></div>
 		<div class= "navbar-active" id= "navbar">
 			<div id="navbar-home" class = "navbar-button"><a href = "index.html">Home</a></div>
@@ -19,9 +19,17 @@
 	</head>
 
 	<body>
-		<div class="content">
-			<h2> Coming to computer screens near you <br> July 2020</h2>
-			<h3> Topic: How to explain CDMA and GSM to your grandmother </h3>
+		<script type="text/javascript" src="pdfobject.js"></script>
+			<script type="text/javascript">
+			window.onload = function (){
+				var success = new PDFObject({ url: "resources/files/Dan_Lang_UX_Portfolio_Telehealth_Project_v2.pdf" }).embed("pdf");
+			};
+			</script>
+		<div id="pdf">It appears you don't have Adobe Reader or PDF support in this web browser. 
+			<a href="resources/files/Dan_Lang_UX_Portfolio_Telehealth_Project_v2.pdf">Click here to download the PDF</a>
 		</div>
+		
+
+
 	</body>
 </html>
