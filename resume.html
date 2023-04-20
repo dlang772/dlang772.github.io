@@ -1,34 +1,39 @@
 <!doctype html>
 <html>
-	<head>
-		<title>Projects</title> 
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
-	
-<!-- Nav Bar -->
-		<div class='background'></div>
-		<div class= "navbar-active" id= "navbar">
-			<div id="navbar-home" class = "navbar-button"><a href = "index.html">Home</a></div>
-			<div id="navbar-about" class = "navbar-button"><a href = "bio.html">My Story</a></div>
-			<div id="navbar-resume" class = "navbar-button"><a href = "resume.html">Resume</a></div>
-			<div id="navbar-projects" class = "navbar-button"><a href = "portfolio.html">Portfolio</a></div>
-			<div id="navbar-blog" class = "navbar-button"><a href ="https://500px.com/dlang772" target="_blank">Photography(500px)</a></div>
+
+<head>
+	<title>Projects</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
+
+	<!-- Nav Bar -->
+	<div class='background'></div>
+	<div class="navbar-active" id="navbar">
+		<div id="navbar-home" class="navbar-button"><a href="index.html">Home</a></div>
+		<!-- <div id="navbar-about" class = "navbar-button"><a href = "bio.html">My Story</a></div> -->
+		<div id="navbar-resume" class="navbar-button"><a href="resume.html">Resume</a></div>
+		<div id="navbar-blog" class="navbar-button"><a href="https://www.dandesigned.io" target="_blank">Portfolio</a>
 		</div>
-		
-
-	</head>
-
-	<body>
-		<script type="text/javascript" src="pdfobject.js"></script>
-			<script type="text/javascript">
-			window.onload = function (){
-				var success = new PDFObject({ url: "resources/files/Dan_Lang_Resume.pdf" }).embed("pdf");
-			};
-			</script>
-		<div id="pdf">It appears you don't have Adobe Reader or PDF support in this web browser. 
-			<a href="resources/files/Dan_Lang_Resume.pdf">Click here to download the PDF</a>
-		</div>
+		<div id="navbar-projects" class="navbar-button"><a href="casestudy.html">Case Study</a></div>
+		<div id="navbar-blog" class="navbar-button"><a href="https://500px.com/dlang772"
+				target="_blank">Photography(500px)</a></div>
+	</div>
 
 
-	</body>
+</head>
+
+<body>
+	<script type="text/javascript" src="pdfobject.js"></script>
+	<script type="text/javascript">
+		window.onload = function () {
+			var success = new PDFObject({ url: "resources/files/Dan_Lang_Resume.pdf" }).embed("pdf");
+		};
+	</script>
+	<div id="pdf">It appears you don't have Adobe Reader or PDF support in this web browser.
+		<a href="resources/files/Dan_Lang_Resume.pdf">Click here to download the PDF</a>
+	</div>
+
+
+</body>
+
 </html>
